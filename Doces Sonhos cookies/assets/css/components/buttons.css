@@ -1,0 +1,54 @@
+.btn-cta{
+   width: 394px;
+   height: 56px;
+
+   background: linear-gradient(100deg, #ea04add7, #ea04adda);
+   opacity: 0.6;
+   border-radius: 10px;
+
+   font-size: 18px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #fff;   
+   cursor: pointer;
+
+   transition-property: transform, background;
+   transition-timing-function: ease;
+   transition-duration: .5s, 1s;
+}
+
+.btn-cta:hover{
+   transform: scale(1.2);
+   background: var(--ternary-color);
+}
+
+.btn--focused{
+   transform: scale(1.1);
+}
+
+
+.btnPequeno{
+   margin-left: auto;
+   width: 50px;
+   height: 5px;
+   background: none;
+   opacity: 0.9;
+   border-radius: 10px;
+   font-size: 15px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #fff;   
+   cursor: pointer;
+
+   transition-property: transform, background;
+   transition-timing-function: ease;
+   transition-duration: .5s, 1s;
+}
+
+.btnPequeno:hover{
+   transform: scale(1.2);
+   background: linear-gradient(45deg, #ef101069, #e65f618a);
+}
+
+
+

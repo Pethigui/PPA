@@ -1,0 +1,89 @@
+.head{
+   width: 100%;
+   height: 80px;
+   z-index: 1;
+   transition: height .1s ease;
+   
+}
+
+.head--background{
+   background: linear-gradient(100deg, #ea04add7, #ea04adda);
+   position: fixed;
+   height: 58px;
+}
+.Imagem{
+   height: 71px;
+   width: 80px;
+   transition-duration: .5s, 1s;
+}
+.Imagem:hover{
+   transform: scale(1.1);
+
+}
+.paragrafo{
+   width: 22%;
+   margin-top: 20px;
+   line-height: 30px;
+   color:#ff9e03;
+   text-shadow: 2px 2px rgba(0, 0, 0, 1);
+   font-size: 18px;
+   text-transform: uppercase;
+}
+
+nav{
+   padding: 5px;
+   position: relative;
+   width: 120% ;
+   height: 50px;
+   border-radius: 8px;
+   display: flex;
+   justify-content: top;
+   align-items: top;
+   
+
+}
+nav a{
+   position: relative;
+   display: flex;
+   font-size: 1em;
+   font-weight: 500;
+   color: #fff;
+   text-decoration: none;
+   padding: 21px;
+   z-index: 1;
+}
+.span{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 95;
+   height: 100%;
+   background: linear-gradient(45deg, #38a35d52, #23eb698a);
+   border-radius: 8px;
+   transition:.2s;
+}
+nav a:nth-child(1):hover~span{
+   left: -3px;
+   width: 100px;
+}
+nav a:nth-child(2):hover~span{
+   left: 75px;
+   width: 100px;
+  
+}
+nav a:nth-child(3):hover~span{
+   left: 162px;
+   width: 110px;
+}
+nav a:nth-child(4):hover~span{
+   left: 265px;
+   width: 115px;
+}
+nav a:nth-child(5):hover~span{
+   left: 360px;
+   width: 110px;
+}
+nav a:nth-child(6):hover~span{
+   left: 445px;
+   width: 190px;
+}
